@@ -20,7 +20,8 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func regresar(_ sender: UIButton) {
-        dismiss(animated: true)
+        //dismiss(animated: true)
+        navigationController?.popViewController(animated: true)
     }
     
 }

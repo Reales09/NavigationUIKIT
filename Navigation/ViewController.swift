@@ -22,6 +22,10 @@ class ViewController: UIViewController {
             destino?.saludo = hola
         }
     }
+    
+    @IBAction func regresarInicio(segue: UIStoryboardSegue){
+        print("Regreso al unicio")
+    }
 
 
 }
